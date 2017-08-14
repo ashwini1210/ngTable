@@ -7,7 +7,7 @@ import {TableData} from './table-data';
   styleUrls: ['./table.component.css']
 })
 export class TableComponent implements OnInit {
-
+  
 public rows:Array<any> = [];
   public columns:Array<any> = [
     {title: 'Name', name: 'name', filtering: {filterString: '', placeholder: 'Filter by name'}},
